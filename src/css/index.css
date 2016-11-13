@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.header {
+  align-items: center;
+  background: #5f3dc4;
+  color: #fff;
+  display: flex;
+  fill: #fff;
+}
+
+.logo {
+  fill: #fff;
+  height: 50px;
+  width: 50px;
+}
+
+.navbar {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: block;
+}
+
+.navbar li a {
+  color: #9775fa;
+  display: flex;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.navbar li a:hover,
+.navbar li a.active-link {
+  color: #fff;
+  fill: #fff;
+}
